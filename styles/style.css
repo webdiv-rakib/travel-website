@@ -7,4 +7,54 @@
 
 body {
     font-family: "Mulish", sans-serif;
+    width: 100%;
+    margin-top: 30px;
+}
+
+/* Navbar section style */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: center; */
+    align-items: center;
+    /* margin-top: 30px; */
+    /* border: 2px solid; */
+}
+
+.navbar-section-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 17px;
+    margin-left: 100px;
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+
+.travel {
+    color: rgb(255, 84, 0);
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: rgb(66, 66, 71);
+}
+
+a:hover {
+    color: rgb(255, 84, 0);
+    font-weight: 700;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 44px;
+    margin-right: 100px;
 }
