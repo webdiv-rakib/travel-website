@@ -8,7 +8,7 @@
 body {
     font-family: "Mulish", sans-serif;
     width: 100%;
-    margin-top: 30px;
+    margin-top: 1.8rem;
 }
 
 /* Navbar section style */
@@ -26,7 +26,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 17px;
-    margin-left: 100px;
+    margin-left: 6.25rem;
     font-size: 2.25rem;
     font-weight: 800;
 }
@@ -56,5 +56,35 @@ ul {
     justify-content: center;
     align-items: center;
     gap: 44px;
-    margin-right: 100px;
+    margin-right: 6.25rem;
+}
+
+/* Banner section style */
+
+.banner-section {
+    border: 2px solid;
+    margin-top: 3.1rem;
+    text-align: center;
+    background-image: url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 31.25rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.banner-title {
+    margin-top: 6.625rem;
+    color: white;
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.banner-description {
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
 }
